@@ -1,0 +1,13 @@
+--- Virtualizando ---
+1) pip install virtualenv
+2) virtualenv env
+3) activar entorno --> env\scripts\activate.ps1, en la planta env\scripts\activate
+4) pip django install
+
+--- Inicio proyecto ---
+1) python -m django startproject studybudy
+2) creo la app base con python manage.py startapp base
+3) agrego base a settings en installed apps --> "base.apps.BaseConfig",
+
+--- Templates ---
+Agregar el BASE_DIR en templates del settings.py
